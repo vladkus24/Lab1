@@ -6,10 +6,8 @@
 # 
 # Дзюба Владислав
 
-a = input("Введіть додатне ціле трицифрове число: ")
+numbers = input("Введіть додатне ціле трицифрове число: ")
 
-numbers = list(map(int, list(a)))
-
-suma = numbers[0] + numbers[1] + numbers[2]
+suma = int(numbers[0]) + int(numbers[1]) + int(numbers[2])
 
 print("Сума цифр числа:", suma)
