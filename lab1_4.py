@@ -6,10 +6,8 @@
 # 
 # Дзюба Владислав
 
-a = input("Введіть додатне ціле трицифрове число: ")
+numbers = input("Введіть додатне ціле трицифрове число: ")
 
-print(a * 5)
-print(" " * 4 + a)
-print(" " * 2 + a * 3)
-print(" " * 4 + a)
-print(a * 5)
+suma = int(numbers[0]) + int(numbers[1]) + int(numbers[2])
+
+print("Сума цифр числа:", suma)
